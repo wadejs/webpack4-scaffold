@@ -14,11 +14,8 @@ console.log(_)
 console.log(sss)
 test()
 console.log('11111111111sum(1, 2) = ', sum(1, 2))
-var minus = require('./vendor/minus')
-console.log('minus(1, 2) = ', minus(1, 2))
-require(['./vendor/multi'], function(multi) {
-  console.log('multi(1, 2) = ', multi(1, 2))
-})
+
+
 
 $('div').addClass('new')
 $('.img').attr('src', img)
